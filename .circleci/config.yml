@@ -35,8 +35,7 @@ jobs:
             cat manifest/deployment.yaml
             git add .
             git commit -m "new build with imgTag build-$TAG"
-            git push https://$GITHUB_PERSONAL_TOKEN@github.com/dhanu4141/kube_manifest.git HEAD:main
-
+            git push https://x-access-token:$GITHUB_PERSONAL_TOKEN@github.com/dhanu4141/kube_manifest.git HEAD:main
 workflows:
   GitOpsflow:
     jobs:
