@@ -1,6 +1,6 @@
 // App.js File
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
